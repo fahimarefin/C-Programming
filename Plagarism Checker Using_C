@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+int main ()
+{ char str[1000],qtr[1000];
+int i,j,k,length,temp,flag=0,length1;
+printf("Taking First String= \n");
+ gets (str);
+printf("Taking Second String= \n");
+ gets (qtr); length = strlen (str);
+length1 = strlen (qtr);
+ for (i=0;i<length;i++) 
+    { if (str[i]==qtr[0])
+{ temp=i; 
+for (j=0,temp;j<length1;j++,temp++)
+    { if (qtr[j]==str[temp])
+{ flag=1; }
+else { flag =0; 
+break; } } } 
+if (flag==1)
+{ printf("YES\n");
+ return 0; } } if
+(flag==0)
+printf("NO\n");
+return 0; }
