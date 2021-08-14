@@ -1,0 +1,8 @@
+#include<stdio.h> 
+int main() { 
+int r,c,n,sum=0,temp; 
+scanf("%d",&n); t
+emp=n; w
+hile(n>0) { r=n%10; c=rrr; sum=sum+c; n=n/10; } n=temp; 
+if(n==sum) { printf("Armstrong Number\n"); }
+else { printf("Not Armstrong Number\n"); } }
